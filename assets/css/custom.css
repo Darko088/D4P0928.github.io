@@ -1,0 +1,38 @@
+/* Add your custom CSS here */
+.section-selector-1 { background-color: var(--lime-400) }
+
+.section-selector-1.cols-2-half .col-2 h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: calc(28px + (42 - 28) * ((100vw - 320px) / (1140 - 320)));
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.section-selector-2 { font-family: 'Playfair Display', serif }
+
+.section-selector-5 {
+    background-color: var(--slate-050);
+    font-family: 'Inter', sans-serif;
+}
+
+.section-selector-5 .col-1 h2 span.highlight { color: var(--red-600) }
+
+.section-selector-5 .flex-cols-4 > .col-4 > h3 {
+	font-size: calc(18px + (56 - 18) * ((100vw - 768px) / (1920 - 768)));
+}
+
+/* .section-selector-6 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--green-200) } */
+
+
+.section-selector-6.theme-light .flex-cols-3 .col-3:nth-child(1) {
+    background-color: var(--green-200)
+}
+
+.section-selector-6.theme-light .flex-cols-3 .col-3:nth-child(2) {
+    background-color: var(--blue-200)
+}
+
+.section-selector-6.theme-light .flex-cols-3 .col-3:nth-child(3) {
+    background-color: var(--red-300)
+}
